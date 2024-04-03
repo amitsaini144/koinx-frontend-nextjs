@@ -2,16 +2,13 @@
 import NavLink from "./NavLink"
 import Button from "./BlueButton"
 import Logo from "./Logo"
-import { menuOutline, closeOutline } from "ionicons/icons";
-import { useState, useRef } from 'react';
+import { useRef } from 'react';
 
 
 function Navbar() {
-    const [icon, setIcon] = useState(menuOutline);
     const menuRef = useRef<HTMLDivElement>(null);
 
     function ToggleMenu() {
-        setIcon(icon === menuOutline ? closeOutline : menuOutline);
         if (menuRef.current) {
             menuRef.current.classList.toggle('top-[9%]')
                 ;

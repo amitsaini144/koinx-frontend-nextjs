@@ -6,7 +6,7 @@ export default function GetStartCard() {
     return (
         <div className="bg-blue-700 lg:max-w-80 lg:min-w-92 rounded-lg text-center p-7 m-1" >
             <div className=" flex justify-center lg:hidden mb-5">
-            <Image src={logo} alt="getStart" placeholder="blur" className="h-36 w-36 rounded-full bg-blue-500" />
+            <Image src={logo} alt="getStart" placeholder="blur" width={150} height={150} className=" rounded-full bg-blue-500" />
             </div>
             <div className="mb-4">
                 <h1 className="text-white text-2xl font-semibold">Get Started with KoinX for FREE</h1>
@@ -17,7 +17,7 @@ export default function GetStartCard() {
             </div>
 
             <div className="hidden lg:flex justify-center mb-5">
-                <Image src={logo} alt="getStart" placeholder="blur" className="h-36 w-36 rounded-full bg-blue-500" />
+                <Image src={logo} alt="getStart" placeholder="blur" width={150} height={150} className=" rounded-full bg-blue-500" />
             </div>
 
             <div className="mb-3 flex justify-center">
