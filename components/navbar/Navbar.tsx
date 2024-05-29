@@ -15,7 +15,7 @@ function Navbar() {
         }
     }
     return (
-        <nav className="bg-white md:sticky top-0 z-10 shadow-sm flex justify-between items-center py-4 ">
+        <nav className="md:sticky top-0 z-50 shadow-sm flex justify-between items-center py-4 bg-white">
             <div className="ml-10 ">
                 <Logo />
             </div>
